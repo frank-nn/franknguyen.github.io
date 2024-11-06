@@ -3,9 +3,113 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Personal website showcasing my skills, portfolio, and contact information."
+    />
+    <title>Frank's Website</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem;
+        text-align: center;
+      }
+      section {
+        padding: 2rem;
+        max-width: 800px;
+        margin: auto;
+      }
+      .intro {
+        text-align: center;
+      }
+      .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      .project {
+        background-color: #fff;
+        padding: 1rem;
+        border: 1px solid #ddd;
+        flex: 1 1 calc(50% - 1rem);
+      }
+      .skills,
+      .contact {
+        background-color: #eee;
+        padding: 1rem;
+        border-radius: 5px;
+      }
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #333;
+        color: #fff;
+        margin-top: 2rem;
+      }
+    </style>
   </head>
   <body>
-    <h1>Frank's Website</h1>
+    <header>
+      <h1>Your Name</h1>
+      <p>Web Developer | Designer | [Your Profession]</p>
+    </header>
+
+    <section class="intro">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm [Your Name], a passionate [Your Profession] with experience
+        in web development, design, and more. I love creating beautiful,
+        user-friendly websites and applications that make a difference.
+      </p>
+    </section>
+
+    <section class="portfolio">
+      <h2>Portfolio</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>Description of your project, what it does, and your role in it.</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>
+          Description of another project, with details on the technology used
+          and skills demonstrated.
+        </p>
+      </div>
+      <!-- Add more project divs as needed -->
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Responsive Web Design</li>
+        <li>React, Angular, or other frameworks</li>
+        <li>Backend development with Node.js, Python, etc.</li>
+        <!-- Add more skills as needed -->
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <p>
+        If you'd like to get in touch, feel free to send an email at
+        <a href="mailto:your.email@example.com">your.email@example.com</a> or
+        connect with me on
+        <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a>.
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
   </body>
 </html>
