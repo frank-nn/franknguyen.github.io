@@ -3,10 +3,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f9;
-  color: #333;
+  color: #000000;
 }
 header {
-  background-color: #333;
+  background-color: #925757;
   color: #fff;
   padding: 1rem;
   text-align: center;
@@ -39,7 +39,7 @@ section {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: #333;
+  background-color: #925757;
   color: #fff;
   margin-top: 2rem;
 }
